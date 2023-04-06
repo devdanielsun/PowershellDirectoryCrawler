@@ -10,9 +10,10 @@ The script takes the following parameters:
 
 - `$startDate`: a string representing the start date and time for the search in the "dd-MM-yyyy HH:mm:ss" format, for example "01-01-2022 00:00:00" for January 1, 2022 at midnight. The time zone assumed is Europe/Amsterdam. Note: Only using the date, and leaving out the time also works.
 - `$fileExtensions`: an array of strings representing one or more file extensions to include in the search, for example ".tif", ".tiff", ".txt", ".pdf", ect..
-- `$outputFilePath`: a string representing the file path and name for the output file that will contain the list of file paths that meet the criteria.
 - `$sourcePath`: a string representing the base path to search for the specified directories containing the files.
 - `$folders`: an array of strings representing the names of the directories to search within the source path. Only files within these directories will be included in the search.
+- `$outputFilePath`: a string representing the file path and name for the output file that will contain the list of file paths that meet the criteria.
+
 
 To run the script, open a PowerShell command prompt and type the following command, replacing the parameters with your own values:
 
